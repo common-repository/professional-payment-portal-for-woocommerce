@@ -1,0 +1,220 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Blank WordPress Pot v1.0.0\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2024-05-06 10:20+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Your Team <translations@example.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: controllers/ppp4woo-controller.php:68
+msgid "Professional Payment Portal - Merchant settings"
+msgstr "Professional Payment Portal - Merchant settings"
+
+#: controllers/ppp4woo-controller.php:70
+msgid ""
+"IMPORTANT: To process transactions properly, please configure your payment "
+"configuration for this shop on the"
+msgstr ""
+"IMPORTANT: To process transactions properly, please configure your payment "
+"configuration for this shop on the"
+
+#: controllers/ppp4woo-controller.php:73
+msgid "API Key"
+msgstr "API Key"
+
+#: controllers/ppp4woo-controller.php:76
+msgid "The API Key can be found on the Professional Payment Portal dashboard."
+msgstr "The API Key can be found on the Professional Payment Portal dashboard."
+
+#: gateways/abstract.php:16
+#, php-format
+msgid "Enable this method to receive transactions with PPP - %s "
+msgstr "Enable this method to receive transactions with PPP - %s "
+
+#: gateways/abstract.php:53
+msgid " via Professional Payment Portal"
+msgstr " via Professional Payment Portal"
+
+#: gateways/abstract.php:96 gateways/ideal.php:21 gateways/ideal.php:42
+#: gateways/ideal_fast.php:37
+msgid "Enable/Disable"
+msgstr "Enable/Disable"
+
+#: gateways/abstract.php:98 gateways/ideal.php:23 gateways/ideal_fast.php:39
+msgid "Enable PPP "
+msgstr "Enable PPP "
+
+#: gateways/abstract.php:103 gateways/ideal.php:28 gateways/ideal_fast.php:44
+msgid "Title"
+msgstr "Title"
+
+#: gateways/abstract.php:105 gateways/ideal.php:30 gateways/ideal_fast.php:46
+msgid "This controls the title which the user sees during checkout."
+msgstr "This controls the title which the user sees during checkout."
+
+#: gateways/abstract.php:111 gateways/ideal.php:36 gateways/ideal_fast.php:52
+msgid "Customer Message after payment select"
+msgstr "Customer Message after payment select"
+
+#: gateways/abstract.php:230
+msgid "iDEAL 2.0 payment started with:"
+msgstr "iDEAL 2.0 payment started with:"
+
+#: gateways/abstract.php:230
+msgid "Using Payment Job:"
+msgstr "Using Payment Job:"
+
+#: gateways/abstract.php:249
+msgid "PPP returned an error! Message:"
+msgstr "PPP returned an error! Message:"
+
+#: gateways/abstract.php:261
+msgid ""
+"Professional Payment Portal returned an error! No Token could be generated "
+"based on the API key."
+msgstr ""
+"Professional Payment Portal returned an error! No Token could be generated "
+"based on the API key."
+
+#: gateways/abstract.php:360 gateways/abstract.php:364
+#: gateways/abstract.php:369
+msgid "Status received from Customer Return:"
+msgstr "Status received from Customer Return:"
+
+#: gateways/abstract.php:360
+msgid "Order updated, check PPP dashboard for status before sending products"
+msgstr "Order updated, check PPP dashboard for status before sending products"
+
+#: gateways/abstract.php:360 gateways/abstract.php:364
+#: gateways/abstract.php:369
+msgid "Payment-method: "
+msgstr "Payment-method: "
+
+#: gateways/abstract.php:364
+msgid ""
+"Payment status already received: Order status not updated, check PPP "
+"dashboard for status"
+msgstr ""
+"Payment status already received: Order status not updated, check PPP "
+"dashboard for status"
+
+#: gateways/abstract.php:369
+msgid "Order not updated, check PPP dashboard for status"
+msgstr "Order not updated, check PPP dashboard for status"
+
+#: gateways/abstract.php:433
+msgid "Status received from PPP Webhook:"
+msgstr "Status received from PPP Webhook:"
+
+#: gateways/abstract.php:433
+msgid " for Payment job:"
+msgstr " for Payment job:"
+
+#: gateways/abstract.php:486
+msgid "Update order status: Payment Completed"
+msgstr "Update order status: Payment Completed"
+
+#: gateways/abstract.php:490
+msgid "Order status not updated: Payment status already received"
+msgstr "Order status not updated: Payment status already received"
+
+#: gateways/abstract.php:499
+msgid ""
+"Payment is cancelled or expired, but will be cancelled automaticly by "
+"WooCommerce."
+msgstr ""
+"Payment is cancelled or expired, but will be cancelled automaticly by "
+"WooCommerce."
+
+#: gateways/abstract.php:503
+msgid "Update order status: Failed."
+msgstr "Update order status: Failed."
+
+#: gateways/abstract.php:508
+msgid "Update order status: Cancelled."
+msgstr "Update order status: Cancelled."
+
+#: gateways/abstract.php:519
+msgid "No Final status has been found."
+msgstr "No Final status has been found."
+
+#: gateways/abstract.php:524
+msgid "Payment Job updated."
+msgstr "Payment Job updated."
+
+#: gateways/abstract.php:529
+msgid ""
+"Order doesnt have the correct status to be changed by the payment method."
+msgstr ""
+"Order doesnt have the correct status to be changed by the payment method."
+
+#: gateways/ideal.php:44
+msgid "Enable the use of UserTokens to allow customers to pay faster "
+msgstr "Enable the use of UserTokens to allow customers to pay faster "
+
+#: gateways/ideal_fast.php:73
+msgid "Pay quicker with iDEAL Fast Checkout"
+msgstr "Pay quicker with iDEAL Fast Checkout"
+
+#: gateways/ideal_fast.php:80
+msgid "iDEAL Fast Checkout"
+msgstr "iDEAL Fast Checkout"
+
+#: gateways/ideal_fast.php:129 gateways/ideal_fast.php:151
+msgid "Oops !"
+msgstr "Oops !"
+
+#: gateways/ideal_fast.php:130
+msgid "Page Not Found"
+msgstr "Page Not Found"
+
+#: gateways/ideal_fast.php:131 gateways/ideal_fast.php:153
+msgid "Back"
+msgstr "Back"
+
+#: gateways/ideal_fast.php:152
+msgid "Your Cart is Empty"
+msgstr "Your Cart is Empty"
+
+#: gateways/ideal_fast.php:170
+msgid "No shipping method has been selected."
+msgstr "No shipping method has been selected."
+
+#: gateways/ideal_fast.php:204
+msgid ""
+"Professional Payment Portal returned an error! Please try again or use "
+"another payment method."
+msgstr ""
+"Professional Payment Portal returned an error! Please try again or use "
+"another payment method."
+
+#: professional-payment-portal-for-woocommerce.php:88
+msgid "View WooCommerce settings"
+msgstr "View WooCommerce settings"
+
+#: professional-payment-portal-for-woocommerce.php:88
+msgid "Settings"
+msgstr "Settings"
+
+#~ msgid "Status received from Customer Return: "
+#~ msgstr "Status received from Customer Return: "
+
+#~ msgid "Enable RPP "
+#~ msgstr "Enable RPP "
